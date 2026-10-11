@@ -1,0 +1,13 @@
+fastapi==0.121.0
+uvicorn[standard]==0.38.0
+pydantic==2.12.4
+numpy==2.4.4
+pandas==2.2.3
+scikit-learn==1.7.2
+xgboost==3.2.0
+shap==0.51.0
+joblib==1.5.2
+matplotlib==3.10.8
+seaborn==0.13.2
+pytest==8.4.2
+httpx==0.28.1

@@ -1,0 +1,65 @@
+{
+  "feature_columns": [
+    "url_length",
+    "domain_length",
+    "path_length",
+    "query_length",
+    "dot_count",
+    "hyphen_count",
+    "underscore_count",
+    "digit_count",
+    "special_char_count",
+    "subdomain_count",
+    "query_param_count",
+    "at_count",
+    "equals_count",
+    "ampersand_count",
+    "percent_count",
+    "colon_count",
+    "suspicious_keyword_count",
+    "digit_ratio",
+    "special_char_ratio",
+    "url_entropy",
+    "uses_https",
+    "ip_in_url",
+    "suspicious_tld",
+    "domain_path_ratio",
+    "has_punycode",
+    "has_port"
+  ],
+  "training_report": {
+    "cleaning": {
+      "source": "D:\\URL\\phishing.csv",
+      "input_rows": 235795,
+      "removed_missing": 0,
+      "removed_invalid_url": 0,
+      "removed_unrecognized_label": 0,
+      "removed_conflicting_duplicate_urls": 2,
+      "removed_duplicate_urls": 1104,
+      "retained_rows": 234689,
+      "retained_domains": 220076,
+      "class_counts": {
+        "0": 134849,
+        "1": 99840
+      }
+    },
+    "split": {
+      "name": "unseen_domain",
+      "train_rows": 188551,
+      "test_rows": 46138,
+      "train_domains": 176065,
+      "test_domains": 44011,
+      "shared_domains": 0,
+      "train_class_counts": {
+        "0": 107861,
+        "1": 80690
+      },
+      "test_class_counts": {
+        "0": 26988,
+        "1": 19150
+      }
+    }
+  },
+  "model_path": "xgboost_url_model.joblib",
+  "explainer_path": "shap_url_explainer.joblib"
+}

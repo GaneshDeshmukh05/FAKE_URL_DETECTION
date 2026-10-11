@@ -1,0 +1,34 @@
+{
+  "stratified_random": {
+    "name": "stratified_random",
+    "train_rows": 187751,
+    "test_rows": 46938,
+    "train_domains": 176928,
+    "test_domains": 45019,
+    "shared_domains": 1871,
+    "train_class_counts": {
+      "0": 107879,
+      "1": 79872
+    },
+    "test_class_counts": {
+      "0": 26970,
+      "1": 19968
+    }
+  },
+  "unseen_domain": {
+    "name": "unseen_domain",
+    "train_rows": 188551,
+    "test_rows": 46138,
+    "train_domains": 176065,
+    "test_domains": 44011,
+    "shared_domains": 0,
+    "train_class_counts": {
+      "0": 107861,
+      "1": 80690
+    },
+    "test_class_counts": {
+      "0": 26988,
+      "1": 19150
+    }
+  }
+}

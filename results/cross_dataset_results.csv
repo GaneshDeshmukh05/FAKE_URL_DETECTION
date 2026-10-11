@@ -1,0 +1,2 @@
+evaluation_type,source_dataset,training_rows,test_rows,test_domains,removed_overlapping_domain_rows,threshold,accuracy,precision,recall,f1,roc_auc,pr_auc,false_positive_rate,false_negative_rate,true_negative,false_positive,false_negative,true_positive
+external_dataset_unseen_domains,D:\URL\raw_data.csv,188551,213292,122010,39562,0.5,0.4811291562740281,0.46457978723404253,0.897157766067815,0.6121610776827298,0.7573697041269611,0.8296115523913085,0.8682065568962989,0.10284223393218493,15280,100659,10012,87341
